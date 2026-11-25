@@ -14,15 +14,13 @@ In five months of 2026 I built, alone, a 13-repository production ecosystem — 
 - **Backend:** Node.js/Fastify (~317K LOC, 120 routes, 2,850 tests), PostgreSQL/SQLite, Redis + BullMQ, Stripe, S3, WebSockets; GitHub Actions + Codemagic multi-OS builds, OTA distribution.
 - **Apps:** Flutter studio app (161K LOC, iOS · Android · macOS · Windows · Web, offline-first sync, AES-256-GCM encrypted backups, 6 languages) and a Swift/Metal GPU drawing engine.
 
-The InkConscious code is private (it's a commercial product) — **happy to give a live walkthrough of the code, the agent and its evals.**
+### Other projects
 
-### Public projects
+- **CEREBRUM** — brain-inspired runtime in Python/PyTorch (CUDA): spiking neural field, dopamine-gated STDP, predictive coding, webcam vision, local HTTP API.
+- **NAV** — Flutter 3D outdoor & marine navigation (~163K LOC) with custom Arduino firmware (OBD, TPMS, lambda sensor); v1 in 4 days.
+- **Particle simulation** in Rust, and applied-statistics work (Markov/AR models, permutation tests, Monte Carlo backtests).
 
-| Repo | What it is |
-|---|---|
-| [mind-runtime](https://github.com/valeriozanzarelli-debug/mind-runtime) | CEREBRUM — brain-inspired runtime in Python/PyTorch (CUDA): spiking neural field, dopamine-gated STDP, predictive coding, webcam vision, local HTTP API |
-| [particle-sim](https://github.com/valeriozanzarelli-debug/particle-sim) | Particle simulation in Rust |
-| [ELEMENTI](https://github.com/valeriozanzarelli-debug/ELEMENTI) | Applied statistics: Markov/AR models, permutation-null tests and Monte Carlo backtests on 156 years of draw data |
+All repositories are private; **code walkthroughs available on request.**
 
 ### Stack
 
